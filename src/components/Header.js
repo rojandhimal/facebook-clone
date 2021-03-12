@@ -15,6 +15,8 @@ import AddIcon from "@material-ui/icons/Add";
 import ForumIcon from "@material-ui/icons/Forum";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
+import profilePic from "../images/rojan.jpg";
+
 function Header() {
   return (
     <div className="header">
@@ -41,7 +43,7 @@ function Header() {
       </div>
       <div className="header__right">
         <div className="header__info">
-          <Avatar />
+          <Avatar src={profilePic} />
           <h4>Rojan Tegre</h4>
         </div>
 
